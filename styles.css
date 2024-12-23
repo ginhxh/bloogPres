@@ -321,7 +321,7 @@ input:focus {
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  height: 100%;
+  height: 600px;
   padding: 36px;
   border-radius: 8px;
   margin: 8px auto;
@@ -331,7 +331,9 @@ input:focus {
 }
 .ss {
   border-radius: 8px;
-  padding: 16px 128px;
+  padding: 16px 18px;
+  width: 80%;
+  max-width: 100%;
   border: none;
   border-bottom: 1px solid black;
 }
@@ -343,14 +345,17 @@ input:focus {
 }
 
 .ssd {
-  padding: 64px 128px;
+  padding: 64px 18px;
   border-radius: 8px;
   border: none;
   border-bottom: 1px solid black;
   overflow: auto;
   scrollbar-width: none;
+  width: 80%;
   max-width: 100%;
-  max-height: 80%;
+
+  height: 60%;
+  max-height: 100%;
 }
 
 .ssd::-webkit-scrollbar {
